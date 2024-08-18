@@ -1,12 +1,12 @@
 // // lesson 2
-// const x = 11;
-// const y = 5;
-// const z = 10;
-// console.log(x + y);
-// console.log(x - y);
-// console.log(x * y);
-// console.log(x / y);
-// console.log(x % y);
+const x = 11;
+const y = 5;
+const z = 10;
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
 
 // let value = 5;
 // // hard version:
@@ -36,11 +36,11 @@
 
 //console.log(Number.parseFloat("55.55px"));
 
-const validNumber = Number("23");
-console.log(Number.isNaN(validNumber));
+// const validNumber = Number("23");
+// console.log(Number.isNaN(validNumber));
 
-const invalidNumber = Number("Hello");
-console.log(Number.isNaN(invalidNumber));
+// const invalidNumber = Number("Hello");
+// console.log(Number.isNaN(invalidNumber));
 
 
 
