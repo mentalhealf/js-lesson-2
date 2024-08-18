@@ -45,3 +45,32 @@
 
 // // Lesson 3
 
+// console.log(0.1 + 0.2 === 0.3);
+// console.log(0.1 + 0.2);
+
+// Object math // Lesson 3
+
+console.log(Math.floor(1.7));
+// Writes the smallest whole number
+
+console.log(Math.ceil(1.1));
+// Writes the bigest whole number
+
+console.log(Math.round(1.7));
+// Rounds to nearest number
+
+console.log(Math.max(10,20,30,52,41));
+// Writes the bigest number out of them
+
+console.log(Math.min(20,23,89,3,33))
+// Writes the smalest number out of them
+
+console.log(Math.pow(4,5));
+// Writes in lader
+
+console.log(Math.random());
+// Writes random number from 0 to 1
+
+const randomNumber = Math.random(); // Генерує випадкове число між 0 і 1
+const roundedNumber = Math.round(randomNumber * 10); // Округлює до найближчого цілого числа
+console.log(roundedNumber);
