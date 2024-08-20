@@ -107,6 +107,25 @@
 // console.log(message.padStart(21, "!"));
 // console.log(message.trim());
 
+// // Lesson 4.2
+
+// const myName = "Alex";
+// const age = 12;
+// const mood = "happy";
+// const message = `Hi my name is ${myName}, i am ${age} year's old and I'm feeling ${mood} today.`;
+// console.log(message);
+
+// // Lesson 4.3: mini task
+
+//Напиши скрипт який виведе рядок в форматі: “Гість x y поселяється в n номер g”,
+// підставивши замість x, y, n, g значення змінних.
+
+const guestName = "Alex";
+const guestLastName = "Lysov"
+const hotelName = "ZaZa"
+const hotelRoom = "212"
+const message = `Guest ${guestName} ${guestLastName} checking in to his hotel room number ${hotelRoom} in ${hotelName} hotel.`
+console.log(message);
 
 
 
