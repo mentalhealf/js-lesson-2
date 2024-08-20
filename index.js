@@ -74,3 +74,44 @@
 // const randomNumber = Math.random(); // Генерує випадкове число між 0 і 1
 // const roundedNumber = Math.round(randomNumber * 10); // Округлює до найближчого цілого числа
 // console.log(roundedNumber);
+
+
+// // Lesson 4
+
+// const message = "javascript " + "Alex" + " HTML/CSS";
+// console.log(message);
+
+// let result;
+// result = 5 + 20;
+// console.log(result);
+
+// let result2;
+// result2 = 5 + "5" + 5;
+// console.log(result2);
+
+// let 
+
+
+// // Lesson 4.1
+
+// const message = " Apple 25";
+// console.log(message);
+// console.log(message.length);
+// console.log(message.toLowerCase());
+// console.log(message.toUpperCase());
+// console.log(message.indexOf("x"));
+// console.log(message.includes("Pear"));
+// console.log(message.startsWith("A"));
+// console.log(message.endsWith("l"));
+// console.log(message.padEnd(22, "!"));
+// console.log(message.padStart(21, "!"));
+// console.log(message.trim());
+
+
+
+
+
+
+
+
+
