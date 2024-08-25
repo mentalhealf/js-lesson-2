@@ -120,14 +120,22 @@
 //Напиши скрипт який виведе рядок в форматі: “Гість x y поселяється в n номер g”,
 // підставивши замість x, y, n, g значення змінних.
 
-const guestName = "Alex";
-const guestLastName = "Lysov"
-const hotelName = "ZaZa"
-const hotelRoom = "212"
-const message = `Guest ${guestName} ${guestLastName} checking in to his hotel room number ${hotelRoom} in ${hotelName} hotel.`
-console.log(message);
+// const guestName = "Alex";
+// const guestLastName = "Lysov"
+// const hotelName = "ZaZa"
+// const hotelRoom = "212"
+// const message = `Guest ${guestName} ${guestLastName} checking in to his hotel room number ${hotelRoom} in ${hotelName} hotel.`
+// console.log(message);
 
+// // Lesson 5
 
+// let groupName = "FE_1y_25_02_09_23";
+// let studentsNumber = 8;
+// let studentsNumberNow = 6;
+// let subjectIt = "FrontEnd";
+// let groupMood = "Joyfull";
+// let message = `Hello our group is called ${groupName} we have ${studentsNumber} right now we have ${studentsNumberNow}.We are studying on subject called ${subjectIt}, the mood of the group is ${groupMood}.`
+// console.log(message);
 
 
 
