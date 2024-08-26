@@ -138,6 +138,100 @@
 // console.log(message);
 
 
+// Lesson 6
+
+// const num = 50;
+// const result = num > 10 && num < 30;
+// console.log(num);
+// console.log(result);
+
+// && = and
+
+
+// const num = 5;
+// const result = num < 4 || num > 10;
+// console.log(num);
+// console.log(result);
+
+// || finds first true answere
+
+
+// console.log(!true);
+// console.log(!false);
+// console.log(!1);
+// console.log(!0);
+
+// ! makes the opiste of what  you writed
+
+
+// Lesson 6.1
+
+// let cost = 0;
+// const subcribtion = "pro";
+
+// if (subcribtion === "normal") {
+//     cost = "100$";
+// }
+
+// console.log(cost);
+
+
+// let cost = 0;
+// let freeSubcrition = "Free Subscribtion"
+// let proSubcribtion = "Pro Subscription"
+// let deluxeSubscribtion = "Deluxe Subscribtion"
+// let deluxeProSubscribtion = "Deluxe-Pro Subscribtion"
+
+// if (proSubcribtion === "Free Subscribtion") {
+//     cost = 0;
+//     console.log(`You have singned up for using ${freeSubcrition}.`);
+    
+// } else {
+//     console.log(`You dont have any subscriptions`);
+// }
+
+
+// let cost;
+// const subscription = 'premium';
+
+// if (subscription === 'premium') {
+//   cost = 0;
+//   console.log(`You have a Free subscription`);
+  
+// } else if (subscription === '{Pro') {
+//   cost = 100;
+//   console.log(`You have Pro subscription`);
+  
+// } else if (subscription === 'Premium-Pro') {
+//   cost = 500;
+//   console.log(`You have Premium-Pro subscription`);
+  
+// } else {
+//   console.log(`You are not signed up for any subscriptions, please sign up for one of the subscriptions.`);
+// }
+
+// console.log(cost); // 500
+
+
+// Lesson 6.2
+
+// let type;
+// const age = 20;
+
+
+// if (age >= 18) {
+//   type = 'adult';
+// } else {
+//   type = 'child';
+// }
+
+
+const age = 15;
+const type = age >= 18 ? "Adult" : "Child";
+console.log(type);
+
+
+
 
 
 
