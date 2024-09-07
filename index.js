@@ -226,9 +226,14 @@
 // }
 
 
-const age = 15;
-const type = age >= 18 ? "Adult" : "Child";
-console.log(type);
+// const age = 15;
+// const type = age >= 18 ? "Adult" : "Child";
+// console.log(type);
+
+
+// Lesson 7
+
+
 
 
 
