@@ -31,7 +31,6 @@
 
 // // console.log(typeof Number(valueB));
 
-
 // // console.log(Number.parseInt("55.5px"));
 
 // // console.log(Number.parseFloat("55.55px"));
@@ -41,7 +40,6 @@
 
 // // const invalidNumber = Number("Hello");
 // // console.log(Number.isNaN(invalidNumber));
-
 
 // // // Lesson 3
 
@@ -75,7 +73,6 @@
 // const roundedNumber = Math.round(randomNumber * 10); // Округлює до найближчого цілого числа
 // console.log(roundedNumber);
 
-
 // // Lesson 4
 
 // const message = "javascript " + "Alex" + " HTML/CSS";
@@ -89,8 +86,7 @@
 // result2 = 5 + "5" + 5;
 // console.log(result2);
 
-// let 
-
+// let
 
 // // Lesson 4.1
 
@@ -137,7 +133,6 @@
 // let message = `Hello our group is called ${groupName} we have ${studentsNumber} right now we have ${studentsNumberNow}.We are studying on subject called ${subjectIt}, the mood of the group is ${groupMood}.`
 // console.log(message);
 
-
 // Lesson 6
 
 // const num = 50;
@@ -147,7 +142,6 @@
 
 // && = and
 
-
 // const num = 5;
 // const result = num < 4 || num > 10;
 // console.log(num);
@@ -155,14 +149,12 @@
 
 // || finds first true answere
 
-
 // console.log(!true);
 // console.log(!false);
 // console.log(!1);
 // console.log(!0);
 
 // ! makes the opiste of what  you writed
-
 
 // Lesson 6.1
 
@@ -175,7 +167,6 @@
 
 // console.log(cost);
 
-
 // let cost = 0;
 // let freeSubcrition = "Free Subscribtion"
 // let proSubcribtion = "Pro Subscription"
@@ -185,11 +176,10 @@
 // if (proSubcribtion === "Free Subscribtion") {
 //     cost = 0;
 //     console.log(`You have singned up for using ${freeSubcrition}.`);
-    
+
 // } else {
 //     console.log(`You dont have any subscriptions`);
 // }
-
 
 // let cost;
 // const subscription = 'premium';
@@ -197,27 +187,25 @@
 // if (subscription === 'premium') {
 //   cost = 0;
 //   console.log(`You have a Free subscription`);
-  
+
 // } else if (subscription === '{Pro') {
 //   cost = 100;
 //   console.log(`You have Pro subscription`);
-  
+
 // } else if (subscription === 'Premium-Pro') {
 //   cost = 500;
 //   console.log(`You have Premium-Pro subscription`);
-  
+
 // } else {
 //   console.log(`You are not signed up for any subscriptions, please sign up for one of the subscriptions.`);
 // }
 
 // console.log(cost); // 500
 
-
 // Lesson 6.2
 
 // let type;
 // const age = 20;
-
 
 // if (age >= 18) {
 //   type = 'adult';
@@ -225,19 +213,58 @@
 //   type = 'child';
 // }
 
-
 // const age = 15;
 // const type = age >= 18 ? "Adult" : "Child";
 // console.log(type);
 
-
 // Lesson 7
 
+//Опис задачі:
+
+//1. Програма повинна попросити користувача ввести номер дня тижня (ціле число від 1 до 7) за допомогою `prompt`.
+//2. Використовуючи інструкцію `switch`, програма має порівняти введений номер з можливими значеннями від 1 до 7 і призначити відповідну назву дня тижня:
+// - 1 — Понеділок
+// - 2 — Вівторок
+/// - 3 — Середа
+// - 4 — Четвер
+// - 5 — П'ятниця
+//  - 6 — Субота
+//- 7 — Неділя
+
+//3. Якщо користувач вв
+//3. Якщо корист
+///3. Якщо користувач вводить значення поза діапазоном від 1 до 7, програма повинна вивести повідомлення "Невірний номер дня".
+//4. Результат повинен виводитися в консоль:
+//   - Наприклад, якщо користувач вводить "3", у консолі з'явиться повідомлення: "Вибрано день: Середа" і "Назва дня: Середа".
+//- Якщо введено число поза діапазоном, наприклад, "10", у консолі з'явиться повідомлення: "Невірний номер дня".
+//Програма повинна бути зручною та враховувати можливі помилки введення з боку користувача.
+
+// let day = parseInt(prompt("Enter number of the day"));
+
+// switch (day) {
+//   case 1:
+//     alert("Chosen day monday");
+//     break;
+//   case 2:
+//     alert("Chosen day tuesday");
+//     break;
+//   case 3:
+//     alert("Chosen day wednesday");
+//     break;
+//   case 4:
+//     alert("Chosen day thursday");
+//     break;
+//   case 5:
+//     alert("Chosen day friday");
+//     break;
+//   case 6:
+//     alert("Chosen day saturday");
+//     break;
+//   case 7:
+//     alert("Chosen day sunday");
+//     break;
+//     default:alert("Wrong day number. Please try again later")
+// };
 
 
-
-
-
-
-
-
+satisfish
