@@ -266,5 +266,36 @@
 //     default:alert("Wrong day number. Please try again later")
 // };
 
+// Lesson 8
+// let clubNumber = parseInt(prompt("How old are you:"));
+// switch (true) {
+//   case clubNumber >= 18:
+//     alert("allowed");
+//     break;
+//   default:
+//     alert("not allowed");
+//     break;
+// }
 
-satisfish
+// let nazarNumber = parseInt(prompt("how old are you:"));
+// switch (true) {
+//   case nazarNumber >= 18:
+//     alert("welcome to our Night-Club");
+//     break;
+//   default:
+//     alert("Not welcome to our Night-Club");
+//     break;
+// }
+
+
+
+let blockA = "block a";
+
+if(blockA === "block a"){
+    console.log("block a")
+    let blockB =  "block b"
+    console.log(blockB);
+
+}
+let blockC = "block c";
+console.log(blockC);
