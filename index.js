@@ -289,13 +289,35 @@
 
 
 
-let blockA = "block a";
+// let blockA = "block a";
 
-if(blockA === "block a"){
-    console.log("block a")
-    let blockB =  "block b"
-    console.log(blockB);
+// if(blockA === "block a"){
+//     console.log("block a")
+//     let blockB =  "block b"
+//     console.log(blockB);
 
+// }
+// let blockC = "block c";
+// console.log(blockC);
+
+
+// Lesson 9
+// let counter = 0;
+
+// while (true) {
+//     console.log("Цей цикл буде працювати вічно!");
+//   }
+
+// let clientCounter = 18;
+// const maxClients = 25;
+
+
+// while (clientCounter < maxClients) {
+//   console.log(clientCounter);
+//   clientCounter += 1;
+// }
+
+for (let i = 0; i <= target; i += 1) {
+  sum += i;
 }
-let blockC = "block c";
-console.log(blockC);
+console.log(sum);
