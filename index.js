@@ -317,7 +317,84 @@
 //   clientCounter += 1;
 // }
 
-for (let i = 0; i <= target; i += 1) {
-  sum += i;
-}
-console.log(sum);
+// for (let i = 0; i <= target; i += 1) {
+//   sum += i;
+// }
+// console.log(sum);
+
+
+// Lesson 10
+
+// const fruits = ["apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango",];
+// console.log(fruits);
+// console.log(fruits[4]);
+// fruits[0] = "lemon";
+// console.log(fruits);
+// fruits.length = 5;
+// console.log(fruits.length);
+
+// const clients = ['Mango', 'Ajax', 'Poly'];
+
+// for (let i = 0; i < clients.length; i += 1) {
+//   console.log('Logging clients: ', clients[i]);
+// };
+
+
+// const numbers = [];
+// for (let i = 0; i < 3; i += 1) {
+//   numbers.push(`label-${i}`);
+// };
+// console.log('numbers: ', numbers);
+
+
+// Ітерація по масиву
+// const clients = ['Mango', 'Ajax', 'Poly'];
+
+// for (const client of clients) {
+//   console.log(client);
+// };
+
+// const string = 'javascript';
+// for (const character of string) {
+//   console.log(character);
+// }
+
+
+// const clients = ['Mango', 'Poly', 'Ajax'];
+// const clientNameToFind = 'Poly';
+// let message;
+// for (const client of clients) {
+//   /* На кожній ітерації ми будемо перевіряти чи збігається елемент масиву з ім'ям клієнта. Якщо збігається то ми записуємо в message повідомлення про успіх і робимо break щоб не шукати далі */
+//   if (client === clientNameToFind) {
+//     message = 'Клієнт з таким іменем є в базі даних!';
+//     break;
+//   }
+//   // Якщо вони не збігаються то запишемо в resultMsg повідомлення про відсутність імені
+//   message = 'Клієнта з таким іменем немає в базі даних!';
+// }
+// console.log(message);
+
+
+/* Для чисел менше ніж поріг спрацьовує continue, виконання тіла припиняється і управління передається на наступну ітерацію. */
+// const numbers = [1, 3, 14, 18, 4, 7, 29, 6, 34];
+// const threshold = 15;
+
+
+// for (let i = 0; i < numbers.length; i += 1) {
+//   if (numbers[i] < threshold) {
+//     continue;
+//   }
+
+
+//   console.log(`Число більше ніж ${threshold}: ${numbers[i]}`); // 18, 29, 34
+// };
+
+
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+]; 
+console.log(matrix[0][0]); // 1
+console.log(matrix[1][2]); // 6
+console.log(matrix[2][2]); // 9
