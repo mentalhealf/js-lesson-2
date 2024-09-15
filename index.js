@@ -324,6 +324,19 @@
 
 
 // Lesson 10
+// let initialAmount = 1000;  // початкова сума в грн
+// let monthlyContribution = 200;  // щомісячний внесок у грн
+// let interestRate = 0.02;  // 2% щомісячна відсоткова ставка
+// let months = 12;  // кількість місяців
+
+// for (let i = 1; i <= months; i++) {
+//   initialAmount += monthlyContribution;  // додаємо щомісячний внесок
+//   initialAmount += initialAmount * interestRate;  // додаємо відсотки
+//   console.log(`Місяць ${i}: ваш баланс становить ${initialAmount.toFixed(2)} грн`);
+// }
+
+
+// Lesson 11
 
 // const fruits = ["apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango","apple", "orange", "Dragon fruit", "Mango",];
 // console.log(fruits);
@@ -390,11 +403,11 @@
 // };
 
 
-const matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-]; 
-console.log(matrix[0][0]); // 1
-console.log(matrix[1][2]); // 6
-console.log(matrix[2][2]); // 9
+// const matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ]; 
+// console.log(matrix[0][0]); // 1
+// console.log(matrix[1][2]); // 6
+// console.log(matrix[2][2]); // 9
