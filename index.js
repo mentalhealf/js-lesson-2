@@ -411,3 +411,43 @@
 // console.log(matrix[0][0]); // 1
 // console.log(matrix[1][2]); // 6
 // console.log(matrix[2][2]); // 9
+
+// Lesson 12
+
+// const message = 'Welcome to Dunmow';
+// console.log(message.split(' '));
+
+// const clients = ['Mango', 'Poly', 'Ajax'];
+// console.log(clients.join(' '));
+
+
+// const clients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// console.log(clients.indexOf('Poly'));
+
+// const fruit = 'apple';
+// if (fruit === 'apple' || fruit === 'strawberry') {
+//   console.log('It is a red fruit!');
+// }
+
+// const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
+// const fruit = 'cherry';
+
+// if (redFruits.includes(fruit)) {
+//   сonsole.log('It is a red fruit!');};
+
+// const stack = [];
+// stack.push(9,4,90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+// stack.push(2);
+// console.log(stack);
+// stack.push(3);
+// console.log();
+
+const clients = ['Mango', 'Ajax', 'Poly'];
+console.log(clients.shift());
+console.log(clients);
+clients.unshift('Kiwi');
+
+
+
+
+
