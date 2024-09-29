@@ -442,12 +442,20 @@
 // stack.push(3);
 // console.log();
 
-const clients = ['Mango', 'Ajax', 'Poly'];
-console.log(clients.shift());
-console.log(clients);
-clients.unshift('Kiwi');
+// const clients = ['Mango', 'Ajax', 'Poly'];
+// console.log(clients.shift());
+// console.log(clients);
+// clients.unshift('Kiwi');
 
 
+// Lesson 13
 
+// const vegetables = ["potato", "carot", "pumpkin", "tomato"];
+// console.log(vegetables.slice(4, 4));
+
+const vegetables = ["potato", "carot", "pumpkin", "tomato"];
+const deletedVegetables = vegetables.splice(2,3);
+console.log(vegetables);
+console.log(deletedVegetables);
 
 
