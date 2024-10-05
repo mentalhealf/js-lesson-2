@@ -458,7 +458,7 @@
 // console.log(vegetables);
 // console.log(deletedVegetables);
 
-
+// Lesson 14 mini
 // a, b, c це параметри
 const add = function(a, b, c) {
     return a + b + c;
