@@ -453,9 +453,20 @@
 // const vegetables = ["potato", "carot", "pumpkin", "tomato"];
 // console.log(vegetables.slice(4, 4));
 
-const vegetables = ["potato", "carot", "pumpkin", "tomato"];
-const deletedVegetables = vegetables.splice(2,3);
-console.log(vegetables);
-console.log(deletedVegetables);
+// const vegetables = ["potato", "carot", "pumpkin", "tomato"];
+// const deletedVegetables = vegetables.splice(2,3);
+// console.log(vegetables);
+// console.log(deletedVegetables);
 
 
+// a, b, c це параметри
+const add = function(a, b, c) {
+    return a + b + c;
+  }; 
+
+  // 1, 2, 3 це аргументи
+  const result = add(1, 2, 3);
+  console.log(result); // 6
+
+   // 5, 10, 15 це аргументи
+  console.log(add(5, 10, 15)); // 30
