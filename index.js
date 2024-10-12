@@ -460,13 +460,91 @@
 
 // Lesson 14 mini
 // a, b, c це параметри
-const add = function(a, b, c) {
-    return a + b + c;
-  }; 
+// const add = function(a, b, c) {
+//     return a + b + c;
+//   }; 
 
-  // 1, 2, 3 це аргументи
-  const result = add(1, 2, 3);
-  console.log(result); // 6
+//   // 1, 2, 3 це аргументи
+//   const result = add(1, 2, 3);
+//   console.log(result); // 6
 
-   // 5, 10, 15 це аргументи
-  console.log(add(5, 10, 15)); // 30
+//    // 5, 10, 15 це аргументи
+//   console.log(add(5, 10, 15)); // 30
+
+// Skiped lesson 15
+
+// Lesson 16
+const filter = function (array, test) {
+  const filteredElements = [];
+
+
+  for (const element of array){
+    const passed = test(element);
+    if (passed) {
+      filteredElements.push(element);
+    }
+  }
+
+  return filteredElements;
+};
+
+const fruits = [
+  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },
+];
+
+
+
+const Manyfruits = [
+  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },  { name: 'apples', quantity: 200, isFresh: true },
+  { name: 'grapes', quantity: 150, isFresh: false },
+  { name: 'bananas', quantity: 100, isFresh: true },
+];
+
+console.log(Manyfruits);
+const freshFruits = filter(fruits, fruit => fruit.isFresh);
+console.log(freshFruits);
+
+const fruitsWithQuantity = filter(fruits, fruit => fruit.quantity >= 120);
+console.log(fruitsWithQuantity);
