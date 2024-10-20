@@ -587,48 +587,58 @@
 
 // Lesson 18
 
-const school = {
-  name: "SchoolHellForcer",
-  hall: 240,
-  numOFStudents: "1.3k",
-  moneyNotSpendOnStudents: "213123131231231231231$",
-  ForcedNumOFStudents: "1299",
-  studentsThatAgredExist:true,
+// const school = {
+//   name: "SchoolHellForcer",
+//   hall: 240,
+//   numOFStudents: "1.3k",
+//   moneyNotSpendOnStudents: "213123131231231231231$",
+//   ForcedNumOFStudents: "1299",
+//   studentsThatAgredExist:true,
   
   
 
-  showName() {
-    console.log(this.name);    
-  },
-  upDatedNumOfStudents(value) {
+//   showName() {
+//     console.log(this.name);    
+//   },
+//   upDatedNumOfStudents(value) {
   
-    console.log();
+//     console.log();
     
-  }
+//   }
 
 
 
 
 
 
+
+// }
+
+// console.log(school);
+// console.log(school.name);
+
+// school.theme = Hell
+// console.log(school.theme);
+
+// console.log(school);
+
+// school.kickedOutPupils = ["Georg", "Lilly", "Mango", "Borris", "Alexa"]
+// console.log(school);
+
+// school.showName();
+// school.upDatedNumOfStudents(1308);
+// console.log(school.numOFStudents);
+
+
+// Lesson 19
+
+const hotel ={
+  name: "Springtraper",
+  room: 20,
+  traps:true,
+  arcade:true,
+  arcadeMachines: 12,
 
 }
 
-console.log(school);
-console.log(school.name);
-
-school.theme = Hell
-console.log(school.theme);
-
-console.log(school);
-
-school.kickedOutPupils = ["Georg", "Lilly", "Mango", "Borris", "Alexa"]
-console.log(school);
-
-school.showName();
-school.upDatedNumOfStudents(1308);
-console.log(school.numOFStudents);
-
-
-
-
+console.log(hotel);
