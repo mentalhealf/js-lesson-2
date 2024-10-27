@@ -689,9 +689,123 @@
 // let b = a;
 // console.log(a);
 
-a.push('Poly');
-console.log(a);
+// a.push('Poly');
+// console.log(a);
 
-console.log(b);
-b.push('Ajax');
-  console.log(a);
+// console.log(b);
+// b.push('Ajax');
+//   console.log(a);
+
+
+
+
+
+// Lesson 21
+
+// const restourant = {
+//   name: "Slim-Street",
+//   numberOfDiferentFoods: 123,
+//   maxVisitors: 321,
+//   onlyOneCookCheff: false,
+//   itsARestourant: true,
+// }
+ 
+// const values = Object.values(restourant);
+
+// const keys = Object.keys(restourant);
+
+// const entries = Object.entries(restourant);
+
+// for (const key in restourant) {
+//   console.log('Keys: ', keys);
+// }
+
+// const goods = {
+//   apples: 6,
+//   grapes: 3,
+//   bread: 4,
+//   cheese: 7,
+// };
+
+// const values = Object.values(goods); // [6, 3, 4, 7]
+
+// let total = 0;
+
+// for (const value of values) {
+//   total += value;
+// }
+
+// console.log(total);
+
+// const houses = ['Arryn', 'Frey', 'Greyjoy', 'Stark', 'Lannister', 'Tyrell'];
+// const completeHouses = [...houses, 'Targaryen'];
+
+
+// console.log(houses); // ['Arryn','Frey','Greyjoy','Stark','Lannister','Tyrell']
+// console.log(completeHouses);
+
+
+// const firstBatch = ['Arryn', 'Frey', 'Greyjoy'];
+//   const secondBatch = ['Stark', 'Lannister', 'Tyrell'];
+//  v
+//   const houses = [...firstBatch, ...secondBatch];
+
+//   console.log(houses);
+  
+
+//   const a = { x: 1, y: 2 };
+// const b = { x: 0, z: 3 };
+
+
+// const c = Object.assign({}, a, b);
+// console.log(c);
+
+
+// const d = { ...a, ...b };
+// console.log(d);
+
+
+
+// const a = ['Mango'];
+//   // Присвоєння за посиланням.
+//   // Оскільки a це масив, в b записується посилання на вже існуючий
+//   // масив в пам'яті. Тепер a і b вказують на один і той же масив.
+//   const b = a;
+//   console.log(a); // ['Mango']
+//   console.log(b); // ['Mango']
+ 
+//   // Змінимо масив, додавши ще один елемент, використовуючи покажчик з a
+//   a.push('Poly');
+//   console.log(a);
+ 
+// TASK 1
+
+// Створіть об'єкт "product" з властивостями "name", "price" та "quantity". Додайте до об'єкту метод,
+// який буде розраховувати вартість всіх товарів. Результат повинен бути виведений на екран.
+
+
+const products = {
+  names: {
+    siphon: 6,
+    shirts: 3,
+    batons: 4,
+    pants: 7,
+  },
+  quality: "good",
+  price: "8.23$",
+};
+
+const values = Object.values(products); // [6, 3, 4, 7]
+
+let total = 0;
+
+for (const value of values) {
+  total += value;
+}
+for (const value of values) {
+  total += value;
+}
+
+console.log(total);
+console.log(quality);
+
