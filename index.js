@@ -784,28 +784,74 @@
 // який буде розраховувати вартість всіх товарів. Результат повинен бути виведений на екран.
 
 
-const products = {
-  names: {
-    siphon: 6,
-    shirts: 3,
-    batons: 4,
-    pants: 7,
-  },
-  quality: "good",
-  price: "8.23$",
-};
+// const products = {
+//   names: {
+//     siphon: 6,
+//     shirts: 3,
+//     batons: 4,
+//     pants: 7,
+//   },
+//   quality: "good",
+//   price: "8.23$",
+// };
 
-const values = Object.values(products); // [6, 3, 4, 7]
+// const values = Object.values(products); // [6, 3, 4, 7]
 
-let total = 0;
+// let total = 0;
 
-for (const value of values) {
-  total += value;
-}
-for (const value of values) {
-  total += value;
-}
+// for (const value of values) {
+//   total += value;
+// }
+// for (const value of values) {
+//   total += value;
+// }
 
-console.log(total);
-console.log(quality);
+// console.log(total);
+// console.log(quality);
 
+// Lesson 22
+
+// const motel = {
+//   name: "Shift-Motel",
+//   room: 12,
+//   statusIsInWork: true,
+//   buffet: false,
+// };
+
+// const {name, ...rest} = motel;
+
+// console.log(rest);
+
+// let options = {
+//   size: {
+//     width: 100,
+//     height: 200
+//   },
+//   items: ["Cake", "Donut"],
+//   extra: true
+// };
+
+// // деструктуризація разбита на декілька рядків для розуміння
+// const {
+//   size: { // покладемо size сюди
+//     width,
+//     height
+//   },
+//   items: [item1, item2], // додамо елементи до items
+//   title = "Menu" // відсутня в об'єкті (використовується значення за замовчуванням)
+// } = options;
+
+// console.log(title);  // Menu
+// console.log(width);  // 100
+// console.log(height); // 200
+// console.log(item1);  // Cake
+// console.log(item2);  // Donut
+
+
+const rgb = [200, 255, 100];
+
+
+const [, , blue] = rgb;
+
+
+console.log(`Blue: ${blue}`);
