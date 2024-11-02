@@ -848,10 +848,24 @@
 // console.log(item2);  // Donut
 
 
-const rgb = [200, 255, 100];
+// const rgb = [200, 255, 100];
+// const [red, green, blue] = rgb;
+// console.log(red, green, blue);
+// console.log(rgb);
 
 
-const [, , blue] = rgb;
 
 
-console.log(`Blue: ${blue}`);
+// const rgb = [200, 255, 100];
+
+
+// const [red, ...colors] = rgb;
+
+
+// console.log(`Red: ${red}, Colors: ${colors}`);
+
+
+
+//Task 1
+
+
