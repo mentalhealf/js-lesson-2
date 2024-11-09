@@ -865,7 +865,84 @@
 // console.log(`Red: ${red}, Colors: ${colors}`);
 
 
+// Lesson 23
 
-//Task 1
+// const user = {
+//     name: 'John',
+//     age: 30,
+//     email: 'john@example.com'
+//   }
+
+//   const {name, age, email} = user;
+//   console.log(name, age, email);
+
+
+//   const car = {
+//     make: 'Toyota',
+//     model: 'Camry',
+//     year: 2020,
+//     features: ['power windows', 'rear camera', 'navigation'],
+//     safety: {
+//       airbags: true,
+//       antilock_brakes: true,
+//       stability_control: true
+//     }
+//   }
+
+//   const {make, model, year, features:[feature1, feature2, feature3] , safety:{airbags, antilock_brakes, stability_control}} = car;
+//   console.log(car);
+//   console.log(airbags);
+//   console.log(feature2);
+//   console.log(make, model, year, features, safety);
+  
+
+const movie = {
+    title: 'The Shawshank Redemption',
+    director: {
+      name: 'Frank Darabont',
+      nationality: 'American'
+    },
+    actors: ['Tim Robbins', 'Morgan Freeman'],
+    release_year: 1994,
+    ratings: {
+      imdb: 9.3,
+      rotten_tomatoes: 90
+    }
+  }
+
+
+const {title, ratings:{imdb, rotten_tomatoes}, release_year, actors: [actor1, actor2], director:{name, nationality}} = movie
+
+console.log(rotten_tomatoes, release_year, title, actor2,);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
