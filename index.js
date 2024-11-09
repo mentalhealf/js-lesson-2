@@ -896,25 +896,64 @@
 //   console.log(make, model, year, features, safety);
   
 
-const movie = {
-    title: 'The Shawshank Redemption',
-    director: {
-      name: 'Frank Darabont',
-      nationality: 'American'
-    },
-    actors: ['Tim Robbins', 'Morgan Freeman'],
-    release_year: 1994,
-    ratings: {
-      imdb: 9.3,
-      rotten_tomatoes: 90
-    }
-  }
+// const movie = {
+//     title: 'The Shawshank Redemption',
+//     director: {
+//       name: 'Frank Darabont',
+//       nationality: 'American'
+//     },
+//     actors: ['Tim Robbins', 'Morgan Freeman'],
+//     release_year: 1994,
+//     ratings: {
+//       imdb: 9.3,
+//       rotten_tomatoes: 90
+//     }
+//   }
 
 
-const {title, ratings:{imdb, rotten_tomatoes}, release_year, actors: [actor1, actor2], director:{name, nationality}} = movie
+// const {title, ratings:{imdb, rotten_tomatoes}, release_year, actors: [actor1, actor2], director:{name, nationality}} = movie
 
-console.log(rotten_tomatoes, release_year, title, actor2,);
+// console.log(rotten_tomatoes, release_year, title, actor2,);
 
+
+//Lesson 24
+
+// 1
+// const numbers = [1, 2, 3, 4, 5];
+// const filteredNumbers = [];
+
+
+// for (let i = 0; i < numbers.length; i += 1) {
+//   if (numbers[i] > 3) {
+//     filteredNumbers.push(numbers[i]);
+//   }
+// }
+
+// console.log(filteredNumbers);
+
+// const numbers = [ 2, 3, 4, 5];
+// const filteredNumbers = numbers.filter(value => {
+//   return value > 3;
+// });
+
+
+// console.log(filteredNumbers);
+
+const numbers = [1, 2, 3];
+
+
+// Класичний for
+for (let i = 0; i < numbers.length; i += 1) {
+  console.log(numbers[i]);
+}
+
+
+// Функціональний forEach
+numbers.forEach(num => console.log(num));
+
+
+// Вказуємо параметр idx якщо потрібен доступ до лічильника
+numbers.forEach((num, idx) => console.log(`index ${idx}, value ${num}`));
 
 
 
