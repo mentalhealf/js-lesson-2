@@ -939,39 +939,75 @@
 
 // console.log(filteredNumbers);
 
-const numbers = [1, 2, 3];
+// const numbers = [1, 2, 3];
+
+
+// // Класичний for
+// for (let i = 0; i < numbers.length; i += 1) {
+//   console.log(numbers[i]);
+// }
+
+
+// // Функціональний forEach
+// numbers.forEach(num => console.log(num));
+
+
+// // Вказуємо параметр idx якщо потрібен доступ до лічильника
+// numbers.forEach((num, idx) => console.log(`index ${idx}, value ${num}`));
+
+
+//Lesson 25
+
+// const numbers = [1, 2, 3];
 
 
 // Класичний for
-for (let i = 0; i < numbers.length; i += 1) {
-  console.log(numbers[i]);
-}
+// for (let i = 0; i < numbers.length; i += 1) {
+//   console.log(numbers[i]);
+// }
 
 
 // Функціональний forEach
-numbers.forEach(num => console.log(num));
+// numbers.forEach(num => console.log(num));
+
+// const numbers = [1, 2, 3];
 
 
-// Вказуємо параметр idx якщо потрібен доступ до лічильника
-numbers.forEach((num, idx) => console.log(`index ${idx}, value ${num}`));
+// const doubledNumbers = numbers.map(num => num * 2);
+// console.log(doubledNumbers);
+
+// const fruits = [
 
 
+//   {name: "Mango",isavailable: true },
+//   {name: "Apple", isavailable: true},
+//   {name: "Dragonf-fruit", isavailable:false}
+
+// ]
+
+// const names = fruits.map(fruit => fruit.name);
+
+// console.log(names);
+
+// fruits.forEach(fruit => console.log(fruit));
+
+// const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 
+// console.log(numbers.find(num => num > 5));
 
 
+const fruits = [
+  { name: 'apples', amount: 100 },
+  { name: 'bananas', amount: 0 },
+  { name: 'grapes', amount: 50 },
+];
 
-
-
-
-
-
-
-
-
-
-
-
+// every поверне true тільки якщо всіх фруктів буде більше ніж 0 штук
+const allAvailable = fruits.every(fruit => fruit.amount > 0); // false
+77
+// some поверне true якщо хоча б одного фрукта буде більше ніж 0 штук
+const anyAvailable = fruits.some(fruits => fruits.amount > 0);
 
 
 
