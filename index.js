@@ -997,19 +997,64 @@
 // console.log(numbers.find(num => num > 5));
 
 
-const fruits = [
-  { name: 'apples', amount: 100 },
-  { name: 'bananas', amount: 0 },
-  { name: 'grapes', amount: 50 },
-];
+// const fruits = [
+//   { name: 'apples', amount: 100 },
+//   { name: 'bananas', amount: 0 },
+//   { name: 'grapes', amount: 50 },
+// ];
 
-// every поверне true тільки якщо всіх фруктів буде більше ніж 0 штук
-const allAvailable = fruits.every(fruit => fruit.amount > 0); // false
-77
-// some поверне true якщо хоча б одного фрукта буде більше ніж 0 штук
-const anyAvailable = fruits.some(fruits => fruits.amount > 0);
+// // every поверне true тільки якщо всіх фруктів буде більше ніж 0 штук
+// const allAvailable = fruits.every(fruit => fruit.amount > 0); // false
+// 77
+// // some поверне true якщо хоча б одного фрукта буде більше ніж 0 штук
+// const anyAvailable = fruits.some(fruits => fruits.amount > 0);
+
+//Lesson 26
+
+// const tweets = [
+//   { id: '000', likes: 5, tags: ['js', 'nodejs'] },
+//   { id: '001', likes: 2, tags: ['html', 'css'] },
+//   { id: '002', likes: 17, tags: ['html', 'js', 'nodejs'] },
+//   { id: '003', likes: 8, tags: ['css', 'react'] },
+//   { id: '004', likes: 0, tags: ['js', 'nodejs', 'react'] },
+// ];
+
+// const getTags = tweets =>
+//   tweets.reduce((allTags, tweet) => {
+//     allTags.push(...tweet.tags);
 
 
+//     return allTags;
+//   }, []);
+
+// const tags = getTags(tweets);
+// const getTagStats = (acc, tag) => {
+//   if (!acc.hasOwnProperty(tag)) {
+//     acc[tag] = 0;
+//   }
+
+
+//   acc[tag] += 1;
+
+
+//   return acc;
+// };
+
+
+// const countTags = tags => tags.reduce(getTagStats, {});
+
+// const tagCount = countTags(tags);
+// console.log(tagCount);
+
+// const numbers = [2, 1, 4, 3, 5];
+
+// console.log('Before sort: ', numbers); 
+// console.log('After sort: ', numbers.sort());
+
+const clients = ['Mango', 'Ajax', 'Poly', 'Chelsey'];
+
+console.log('Before sort: ', clients); 
+console.log('After sort: ', clients.sort());
 
 
 
