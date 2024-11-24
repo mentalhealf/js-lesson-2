@@ -1122,49 +1122,159 @@
 //   poly.updateEmail('new_poly@example.com');
 //   poly.sayHello();
 
-  class Car {
-    constructor(make, model, year) {
-      this.make = make; // Марка автомобіля
-      this.model = model; // Модель автомобіля
-      this.year = year; // Рік випуску
-    }
+//   class Car {
+//     constructor(make, model, year) {
+//       this.make = make; // Марка автомобіля
+//       this.model = model; // Модель автомобіля
+//       this.year = year; // Рік випуску
+//     }
   
-    // Метод для виводу інформації про автомобіль
-    displayInfo() {
-      console.log(Автомобіль: ${this.make} ${this.model}, ${this.year} року);
-    }
+//     // Метод для виводу інформації про автомобіль
+//     displayInfo() {
+//       console.log(`Автомобіль: ${this.make} ${this.model}, ${this.year} року`);
+//     }
   
-    // Метод для оновлення моделі автомобіля
-    updateModel(newModel) {
-      this.model = newModel;
-      console.log(Модель оновлена на: ${this.model});
-    }
+//     // Метод для оновлення моделі автомобіля
+//     updateModel(newModel) {
+//       this.model = newModel;
+//       console.log(`Модель оновлена на: ${this.model}`);
+//     }
   
-    // Метод для оновлення року випуску
-    updateYear(newYear) {
-      this.year = newYear;
-      console.log(Рік випуску оновлено на: ${this.year});
-    }
-  }
+//     // Метод для оновлення року випуску
+//     updateYear(newYear) {
+//       this.year = newYear;
+//       console.log(`Рік випуску оновлено на: ${this.year}`);
+//     }
+//   }
   
-  // Створення екземплярів класу
-  const car1 = new Car('Toyota', 'Camry', 2020);
-  console.log(car1);
-  car1.displayInfo();
+//   // Створення екземплярів класу
+//   const car1 = new Car('Toyota', 'Camry', 2020);
+//   console.log(car1);
+//   car1.displayInfo();
   
-  // Оновлюємо модель та рік для car1
-  car1.updateModel('Corolla');
-  car1.updateYear(2022);
-  car1.displayInfo();
+//   // Оновлюємо модель та рік для car1
+//   car1.updateModel('Corolla');
+//   car1.updateYear(2022);
+//   car1.displayInfo();
   
-  const car2 = new Car('Honda', 'Civic', 2018);
-  console.log(car2);
-  car2.displayInfo();
+//   const car2 = new Car('Honda', 'Civic', 2018);
+//   console.log(car2);
+//   car2.displayInfo();
   
-  // Оновлюємо рік для car2
-  car2.updateYear(2021);
-  car2.displayInfo();
+//   // Оновлюємо рік для car2
+//   car2.updateYear(2021);
+//   car2.displayInfo();
 
+// // Lesson 28
+
+// const car3 = new Car( 'Tesla', 'Model S', 2024)
+// console.log(car3);
+// car3.displayInfo();
+// car3.updateYear(2025);
+// car3.displayInfo();
+
+
+// Базовий клас User
+class User {
+  constructor(email, role) {
+    this.email = email;
+    this.role = role;
+  }
+
+  // Метод для отримання інформації про користувача
+  getUserInfo() {
+    return `Email: ${this.email}, Role: ${this.role}`;
+  }
+}
+
+// Клас FrontendDeveloper, який наслідує User
+class FrontendDeveloper extends User {
+  constructor(email) {
+    super(email, "Frontend Developer");
+  }
+
+  code() {
+    return "Writing React components and styling with CSS.";
+  }
+}
+
+// Клас BackendDeveloper, який наслідує User
+class BackendDeveloper extends User {
+  constructor(email) {
+    super(email, "Backend Developer");
+  }
+
+  code() {
+    return "Building APIs and managing databases.";
+  }
+}
+
+// Клас FullStackDeveloper, який наслідує User
+class FullStackDeveloper extends User {
+  constructor(email) {
+    super(email, "Full Stack Developer");
+  }
+
+  code() {
+    return "Working on both frontend and backend tasks.";
+  }
+}
+// Support
+class CyberSecurity extends User {
+  constructor(email) {
+    super(email, "CyberSicurity");
+  }
+
+  code() {
+    return "protect the devices we all use (smartphones, laptops, tablets and computers), and the services we access - both online and at work - from theft or damage.";
+  }
+}
+
+class DataAnalysts extends User {
+  constructor(email) {
+    super(email, "DataAnalysts");
+  }
+
+  code() {
+    return "Monitor website metrics (traffic, user behavior) and provide insights for improvement.";
+  }
+}
+//Other Supporting Roles
+class MarketingSpecialists extends User {
+  constructor(email) {
+    super(email, "MarketingSpecialists");
+  }
+
+  code() {
+    return "Promote the website through digital marketing strategies like social media, email campaigns, and ads.";
+  }
+}
+
+// Приклади використання:
+const frontendDev = new FrontendDeveloper("frontend@example.com");
+console.log(frontendDev.getUserInfo()); // Email: frontend@example.com, Role: Frontend Developer
+console.log(frontendDev.code()); // Writing React components and styling with CSS.
+
+const backendDev = new BackendDeveloper("backend@example.com");
+console.log(backendDev.getUserInfo()); // Email: backend@example.com, Role: Backend Developer
+console.log(backendDev.code()); // Building APIs and managing databases.
+
+const fullStackDev = new FullStackDeveloper("fullstack@example.com");
+console.log(fullStackDev.getUserInfo()); // Email: fullstack@example.com, Role: Full Stack Developer
+console.log(fullStackDev.code()); // Working on both frontend and backend tasks.
+
+
+const cybersecurity = new CyberSecurity("cybersecurity@example.com");
+console.log(cybersecurity .getUserInfo()); // Email: fullstack@example.com, Role: Full Stack Developer
+console.log(cybersecurity.code()); // Working on both frontend and backend tasks.
+
+const dataanalysts  = new DataAnalysts ("dataanalysts@example.com");
+console.log(dataanalysts.getUserInfo()); // Email: fullstack@example.com, Role: Full Stack Developer
+console.log(dataanalysts.code()); // Working on both frontend and backend tasks.
+
+const marketingspecialists = new MarketingSpecialists("marcetingspecialists@example.com");
+console.log(marketingspecialists.getUserInfo()); // Email: fullstack@example.com, Role: Full Stack Developer
+console.log(marketingspecialists.code()); // Working on both frontend and backend tasks.
 
 
 
