@@ -1279,14 +1279,40 @@
 // // Lesson 29
 
 
-let sweet = document.querySelector(".sweet");
-sweet.style.background = "pink";
-sweet.style.color = "grey";
-sweet.style.fontSize = "50px";
-sweet.style.fontStyle = "italic";
+// let sweet = document.querySelector(".sweet");
+// sweet.style.background = "pink";
+// sweet.style.color = "grey";
+// sweet.style.fontSize = "50px";
+// sweet.style.fontStyle = "italic";
 
-sweet.classList.add("apple")
+// sweet.classList.add("apple")
+// Lesson 30
 
+// let btn = document.querySelector(".btn")
+// btn.style.background = "lightseagreen";
+// btn.style.border = "green";
+// btn.style.width = "100px";
+// btn.style.hight = "50px";
+// btn.style.fontStyle = "italic";
+
+
+// btn.classList.add("JavaScript")
+// btn.classList.remove("JavaScript")
+
+// btn.classList.togle("lightgreen")
+// btn.textContent 
+
+// 1. Отримайте доступ до списку
+// 2. Додайте жовтий колір фону 
+// 3. Додайте клас "site-nav__link" до посилання
+// 4. Збільшіть розмір шрифта посилання
+
+const list = document.querySelector(".site-nav"); 
+siteNav.style.background = "yellow";
+siteNav.style.liststyle = "none";
+const link = documetn.querySelector("a");
+link.classList.toggle("site-nav__link");
+link.style.fontsize = "24px";
 
 
 
