@@ -1307,14 +1307,28 @@
 // 3. Додайте клас "site-nav__link" до посилання
 // 4. Збільшіть розмір шрифта посилання
 
-const list = document.querySelector(".site-nav"); 
-siteNav.style.background = "yellow";
-siteNav.style.liststyle = "none";
-const link = documetn.querySelector("a");
-link.classList.toggle("site-nav__link");
-link.style.fontsize = "24px";
+// const list = document.querySelector(".site-nav"); 
+// siteNav.style.background = "yellow";
+// siteNav.style.liststyle = "none";
+// const link = documetn.querySelector("a");
+// link.classList.toggle("site-nav__link");
+// link.style.fontsize = "24px";
 
+// Lesson 31
+const container = document.getElementById("container");
+console.log("Початковий вміст:", container.innerHTML);
+const products = [
+    { name: "Телефон", price: 12000 },
+    { name: "Ноутбук", price: 35000 },
+    { name: "Навушники", price: 2500 },
+  ];
 
+  let productHTML = "<h2>Список товарів:</h2><ul>";
+  products.forEach(product => {
+    productHTML += `<li>${product.name} - ${product.price} грн</li>`;
+  });
 
+  productHTML += "</ul>";
+container.innerHTML = productHTML;
 
 
