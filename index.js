@@ -1315,20 +1315,19 @@
 // link.style.fontsize = "24px";
 
 // Lesson 31
-const container = document.getElementById("container");
-console.log("Початковий вміст:", container.innerHTML);
-const products = [
-    { name: "Телефон", price: 12000 },
-    { name: "Ноутбук", price: 35000 },
-    { name: "Навушники", price: 2500 },
-  ];
+// const container = document.getElementById("container");
+// console.log("Початковий вміст:", container.innerHTML);
+// const products = [
+//     { name: "Телефон", price: 12000 },
+//     { name: "Ноутбук", price: 35000 },
+//     { name: "Навушники", price: 2500 },
+//   ];
 
-  let productHTML = "<h2>Список товарів:</h2><ul>";
-  products.forEach(product => {
-    productHTML += `<li>${product.name} - ${product.price} грн</li>`;
-  });
+//   let productHTML = "<h2>Список товарів:</h2><ul>";
+//   products.forEach(product => {
+//     productHTML += `<li>${product.name} - ${product.price} грн</li>`;
+//   });
 
-  productHTML += "</ul>";
-container.innerHTML = productHTML;
-
+//   productHTML += "</ul>";
+// container.innerHTML = productHTML;
 
