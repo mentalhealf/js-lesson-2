@@ -1331,3 +1331,39 @@
 //   productHTML += "</ul>";
 // container.innerHTML = productHTML;
 
+// Lesson 34
+
+// const input1 = document.getElementById('input1');
+//     const input2 = document.getElementById('input2');
+//     const setFocusButton = document.getElementById('setFocusButton');
+//     const focusInfo = document.getElementById('focusInfo');
+
+//     // Встановлюємо обробник події focus
+//     input1.addEventListener('focus', () => {
+//       focusInfo.textContent = 'Поле 1 отримало фокус!';
+//     });
+
+//     input2.addEventListener('focus', () => {
+//       focusInfo.textContent = 'Поле 2 отримало фокус!';
+//     }); 
+
+// Подія change для текстового поля
+// const textInput = document.getElementById('textInput');
+// const textOutput = document.getElementById('textOutput');
+// textInput.addEventListener('change', () => {
+//   textOutput.textContent = `Текст змінено на: ${textInput.value}`;
+// });
+
+
+const btn = document.querySelector(".btn");      
+const txt = document.querySelector(".txt");
+
+btn.addEventListener('click'),() => {
+    if( txt.computedStyleMap.display != 'none') {
+        txt.style.display = "none";
+    }
+    else {
+        txt.style.display = "block";
+        btn.textContent = "Click To Dide";
+    }
+};
