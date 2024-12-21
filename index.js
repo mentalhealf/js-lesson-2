@@ -1355,15 +1355,40 @@
 // });
 
 
-const btn = document.querySelector(".btn");      
-const txt = document.querySelector(".txt");
+// const btn = document.querySelector(".btn");      
+// const txt = document.querySelector(".txt");
 
-btn.addEventListener('click'),() => {
-    if( txt.computedStyleMap.display != 'none') {
-        txt.style.display = "none";
+// btn.addEventListener('click'),() => {
+//     if( txt.computedStyleMap.display != 'none') {
+//         txt.style.display = "none";
+//     }
+//     else {
+//         txt.style.display = "block";
+//         btn.textContent = "Click To Dide";
+//     }
+// };
+
+
+// Lesson 35
+
+// document.addEventListener("keydown", event => {
+//     console.log("Keydown: ", event);
+//    });
+   
+//    document.addEventListener("keyup", event => {
+//     console.log("Keyup: ", event);
+//    });
+
+// document.addEventListener("keydown", event => {
+//     console.log("key: ", event.key);
+//     console.log("code: ", event.code);
+//    });
+
+
+   document.addEventListener("keydown", event => {
+    event.preventDefault();
+   
+    if ((event.ctrlKey || event.metaKey) && event.code === "KeyS") {
+      console.log("«Ctrl + s» or «Command + s» combo");
     }
-    else {
-        txt.style.display = "block";
-        btn.textContent = "Click To Dide";
-    }
-};
+   });
