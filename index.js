@@ -1385,10 +1385,58 @@
 //    });
 
 
-   document.addEventListener("keydown", event => {
-    event.preventDefault();
+  //  document.addEventListener("keydown", event => {
+  //   event.preventDefault();
    
-    if ((event.ctrlKey || event.metaKey) && event.code === "KeyS") {
-      console.log("«Ctrl + s» or «Command + s» combo");
-    }
-   });
+  //   if ((event.ctrlKey || event.metaKey) && event.code === "KeyS") {
+  //     console.log("«Ctrl + s» or «Command + s» combo");
+  //   }
+  //  });
+
+   // Lesson 36
+
+//    const hi = "hi";
+//    const num = 20;
+//    const or = true;
+//    const zero = null;
+//    const character = 'a';
+//    console.log(hi);
+//    console.log(num);
+//    console.log(or);
+//    console.log(zero);
+//    console.log(character);
+   
+   
+//    alert("Hello'w")
+//    prompt("Entre'a your name pls'e")
+//    confirm("Do ya agreo with our terms of serves'e?")
+
+//    const x = 11;
+// const y = 5;
+// const z = 10;
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
+
+
+// const valueA = "5";
+// console.log(valueA);
+// console.log(Number(valueA));
+
+
+// console.log(Math.round(20.1));
+
+const name = "Iuan";
+const lastName = "Donaldson";
+const hobby = "playing piano";
+
+const fhrase = `Hello my name is ${name} ${lastName}, and my hobby is ${hobby}.`
+
+console.log(fhrase);
+
+
+
+
+
