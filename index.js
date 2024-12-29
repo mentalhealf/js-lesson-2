@@ -1428,15 +1428,72 @@
 
 // console.log(Math.round(20.1));
 
-const name = "Iuan";
-const lastName = "Donaldson";
-const hobby = "playing piano";
+// const name = "Iuan";
+// const lastName = "Donaldson";
+// const hobby = "playing piano";
 
-const fhrase = `Hello my name is ${name} ${lastName}, and my hobby is ${hobby}.`
+// const phrase = `Hello my name is ${name} ${lastName}, and my hobby is ${hobby}.`
 
-console.log(fhrase);
+// console.log(phrase);
+
+// Lesson 37
 
 
+// const day = prompt("Enter day of the week")
+// function getDay(day){
+//   switch (day) {
+//     case "monday":
+//       return "Boring day"
+
+//       case "tuesday":
+//         return "martial arts day"
+
+//         case "wednesday":
+//           return "even more Boring day"
+
+  
+//           case "thursday":
+//             return "mehh"
+//         case "friday":
+//           return "one day until weekend yay!!!"
+//         case "saturday":
+//           return "one word: relax"
+//         case "sunday":
+//           return "realiasation of this being the last day off in the week :("
+//     default: 
+//     return "incorrect name of the day or misspeling, Try again later."
+//   }
+// }
+
+// console.log(getDay(day));
+
+// let max = 2000000000;
+// for (let i = 0; i < max; i += 1) {
+//   console.log(i);
+  
+  
+// }
+
+// let students = ['Kiril', 'Maria', 'Nazar', 'Alex', 'Vlad']
+
+// }
+
+// let students = [
+//   "Kiril", "Maria", "Nazar", "Alex", "Vlad", "Sophia", "Daniel", "Emma", "Oliver", "Liam",
+//   "Ava", "Elijah", "Lucas", "Isabella", "Mia", "Ethan", "Noah", "Charlotte", "Amelia", "James",
+//   "Henry", "Olivia", "Benjamin", "Emily"
+// ];
+
+// for (let i = 0; i < students.length; i += 1) {
+//   console.log(students[i]);
+
+// };
 
 
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
 
+console.log(matrix[0][2]);
