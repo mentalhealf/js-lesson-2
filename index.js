@@ -1478,22 +1478,22 @@
 
 // }
 
-// let students = [
-//   "Kiril", "Maria", "Nazar", "Alex", "Vlad", "Sophia", "Daniel", "Emma", "Oliver", "Liam",
-//   "Ava", "Elijah", "Lucas", "Isabella", "Mia", "Ethan", "Noah", "Charlotte", "Amelia", "James",
-//   "Henry", "Olivia", "Benjamin", "Emily"
-// ];
-
-// for (let i = 0; i < students.length; i += 1) {
-//   console.log(students[i]);
-
-// };
-
-
-const matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
+let students = [
+  "Kiril", "Maria","Platon", "Mykola", "Nazar", "Alex", "Vlad", "Sophia", "Daniel", "Emma", "Oliver", "Liam",
+  "Ava", "Elijah", "Lucas", "Isabella", "Mia", "Ethan", "Noah", "Charlotte", "Amelia", "James",
+  "Henry", "Olivia", "Benjamin", "Emily"
 ];
 
-console.log(matrix[0][2]);
+for (let i = 0; i < students.length; i += 1) {
+  console.log('our students: ', students[i]);
+
+};
+
+
+// const matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// console.log(matrix[0][2]);
